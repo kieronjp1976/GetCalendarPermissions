@@ -3,7 +3,8 @@ $Results = @()
 
 foreach ($mbx in $Mailboxes) {
     $smtp = $mbx.PrimarySmtpAddress
-    $path = "$smtp:\Calendar"
+    $path = "${smtp}:\Calendar"
+
 
     try {
         $perms = Get-MailboxFolderPermission -Identity $path -ErrorAction Stop
