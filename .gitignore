@@ -1,0 +1,20 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code settings
+.vscode/
+.history/
+*.code-workspace
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Python / Node (if ever used)
+__pycache__/
+node_modules/
+
+# PowerShell script artifacts
+*.ps1~ 
+*.bak
